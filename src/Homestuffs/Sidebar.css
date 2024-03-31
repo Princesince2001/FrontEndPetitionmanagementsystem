@@ -1,0 +1,54 @@
+ .color {
+    background-color: hsl(0, 52%, 4%); /* Dark background color */
+  } 
+   
+  .custom-hr {
+    color: rgb(250, 248, 248);
+    width: 120%;
+  }
+   
+  .sidebar-icon {
+    color: #ae8b22; /* Yellow icon color */
+    padding-right: 5px;
+  }
+   
+  .nav-link {
+    padding: 8px 0; /* Adjust padding for better appearance */
+  }
+   
+  .nav-link:hover {
+    background-color: #e1dacc !important; /* Gray background color on hover */
+  }
+
+  .fone{
+
+font-size:xx-large  ;
+padding-top: 10px;
+font-style:italic;
+  }
+
+  #hola{
+
+    background-color: #652536;
+  }
+
+    /* Sidebar.css */
+.bg {
+  background-color: #652536; /* Set sidebar background color */
+}
+ 
+.color {
+  color: white; /* Set text color */
+}
+ 
+.custom-hr {
+  border-color: white; /* Set color for horizontal rule */
+}
+ 
+.sidebar-icon {
+  margin-right: 10px; /* Add space between icon and text */
+}
+ 
+.sidebar-icon:hover {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}

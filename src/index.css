@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,255 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+}
+.body {
+  background: transparent;
+  /* background-image:url('https://images.pexels.com/photos/1383834/pexels-photo-1383834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ; */
+  min-height: 100vh;
+  display: flex;
+  /* background: no-repeat; */
+  background-size: cover;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+ 
+}
+.h1,.h2,.h3,.h4,.h5,.h6,.label,.span {
+  font-weight: 1000;
+  font-family: 'Fira Sans', sans-serif;
+  
+}
+.body, .html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.navbar-light {
+  /* background-color:; */
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 4%;
+  
+
+
+  
+    
+}
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #a05757;
+  box-shadow:1px 1px 12px rgba(197, 187, 188, 0.8);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+  background: transparent;
+  color: blue;
+  opacity: 80;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+  
+}
+.custom-control-label {
+  font-weight: 400;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+ 
+}
+ .forgot-password a {
+  color: #167bff;
+} 
+
+.navbar-link{
+  color: rgb(228, 225, 225);
+} */
+
+.mojo{
+
+  font-style:italic;
+  font-size: larger;
+  
+
+}
+
+
+
+
+
+#oneone{
+
+  width: 100%;
+}
+
+
+
+.nav-pills li a:hover{
+  /* background-color:#E3E1D9; */
+  background-color:rgb(116, 116, 157);;
+}
+/* #dashboard{
+  width:70vw;
+  position:absolute;
+  left: 0;
+
+    } */
+ 
+
+.item{
+  margin-left: -22vh;
+ 
+}
+
+.color{
+  background-color: rgb(66, 66, 126);
+  min-height:88vh!important;
+  margin-top:-40;
+ 
+}
+
+.Menu{
+  margin-bottom:10;
+}
+
+
+.p-2{
+  margin-top: 100;
+}
+
+
+
+
+#navvv{
+  background: #2360b0 !important;
+  padding: 20px;
+  justify-content: center ;
+  font-size:x-large;
+}
+
+
+.ptext{
+
+  padding-top: 5px;
+  font-size: x-large;
+  margin-left: -480px;
+  text-decoration: none;
+}
+
+
+#backone
+{
+
+  background-image: url('https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  /* background-position: ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  background-size:cover;
+   width: 100vw;
+}
+
+ /* #onoone{
+
+  /* background-image: url('https://media.istockphoto.com/id/1338280747/vector/hands-hold-clipboard-with-petition-vector-illustration-in-flat-style.jpg?s=612x612&w=0&k=20&c=vfCnnEjmIJnTM_VwluThYQ6iop8JjlIQgmwiZ21lgTE=');  */
+  /* height: 1%; */
+  /* padding-top: 350px; */
+
+/* }   */
+.tableimg:hover{
+  position: absolute;
+  top: 5vh;
+  width: 300px;
+  height: 300px;
+
+}
+
+#okok{
+
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJKdmsI7HXKosj-OymLMYmjNeQp3oFLA6f0A&usqp=CAU'); 
+  background-size: 450px;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-size: 40%;
+ margin-right: 70px;
+ /* margin-top: 30px; */
+ width: 100%;
+ 
+ 
+}
+.mainbox{
+  width:250px;
+  background-color:rgb(234, 1000, 46);
+  border: dotted 1px #e31010;
+  height:100px;
+  font-size: x-large;
+  /* align-items: center; */
+    /* border-radius:10px; */
+  /* box-shadow:3px 3px 15px; */
+}
+
+
+
+.mainbox.hover{
+
+background-color: #167bff;
+
+}
+
+
+
+
+.subbox{
+  width:200px;
+  background-color:rgb(245, 1000, 11);
+  border:solid 1px #ffffff;
+  height:60px;
+}
+
+#diff{
+
+  /* background-color: #ACE2E1; */
+  box-shadow: none !important;
+}
+
+#panel{
+
+  color:aliceblue;
+}
+
+#dashimage{
+
+  /* background-image: url('https://media.istockphoto.com/id/1338280747/vector/hands-hold-clipboard-with-petition-vector-illustration-in-flat-style.jpg?s=612x612&w=0&k=20&c=vfCnnEjmIJnTM_VwluThYQ6iop8JjlIQgmwiZ21lgTE='); */
+  height: 100vh;
+  background-color: rgb(6, 50, 108);
+  
+}
+.nav-heading{
+  margin-bottom: 50px;
 }
